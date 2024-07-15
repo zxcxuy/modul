@@ -1,7 +1,9 @@
-export function evenorodd(N) {
+function evenorodd(N) {
     if (N % 2 === 0) {
-        console.log(`Число ${N} четное!`);
+        res = `Число ${N} четное!`;
     } else {
-        console.log(`Число ${N} нечетное!`);
+        res = `Число ${N} нечетное!`;
     }
+    return res;
 }
+module.exports = evenorodd;
